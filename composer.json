@@ -1,0 +1,25 @@
+{
+    "name": "pdefreitas/vanillasso",
+    "description": "A way to connect your Laravel application into Vanilla Forum via jsConnect.",
+    "authors": [
+        {
+            "name": "pdefreitas",
+            "email": "pdefreitas@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/models"
+        ],
+        "psr-0": {
+            "Pdefreitas\\VanillaSSO\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
