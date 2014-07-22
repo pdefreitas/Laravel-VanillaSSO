@@ -19,3 +19,10 @@ Route::group(array('before' => 'auth'), function()
 License
 ==================
 Check LICENSE for more information.
+
+Hints
+==================
+If you use Vanilla 2.1 there is an annoying bug that you have to alter a table in order to jsConnect 1.4.1 be supported:
+```
+ALTER TABLE GDN_UserAuthenticationProvider ADD IsDefault BOOLEAN NOT NULL DEFAULT FALSE;
+```
