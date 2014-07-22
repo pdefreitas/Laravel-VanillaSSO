@@ -16,6 +16,20 @@ Route::group(array('before' => 'auth'), function()
 });
 ```
 
+Configuration
+==================
+You can directly edit config\vanillasso.php or add it to your application.
+
+The configuration file looks like this:
+```
+return array(
+    //The string client ID that you set up in the jsConnect settings page.
+    "client_id" => "",
+    //The string secred that you set up in the jsConnect settings page.
+    "secret" => ""
+);
+```
+
 License
 ==================
 Check LICENSE for more information.
