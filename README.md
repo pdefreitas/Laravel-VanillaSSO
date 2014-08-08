@@ -38,6 +38,11 @@ License
 ==================
 Check LICENSE for more information.
 
+Credits
+==================
+I want to thank Todd Burry from Vanilla Forums. This file helped producing this package:
+https://github.com/vanilla/jsConnectPHP/blob/master/functions.jsconnect.php
+
 Hints
 ==================
 If you use Vanilla 2.1 there is an annoying bug that you have to alter a table in order to jsConnect 1.4.1 be supported:
