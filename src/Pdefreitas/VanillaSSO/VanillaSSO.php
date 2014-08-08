@@ -6,11 +6,12 @@
  */
 
 /**
- * This file contains the client code for Vanilla jsConnect single sign on.
+ * This file contains part of the client code for Vanilla jsConnect single sign on. It was adapted to support Laravel.
  * @author Todd Burry <todd@vanillaforums.com>
  * @version 1.3b
  * @copyright Copyright 2008, 2009 Vanilla Forums Inc.
  * @license http://www.opensource.org/licenses/gpl-2.0.php GPLv2
+ * @link https://github.com/vanilla/jsConnectPHP/blob/master/functions.jsconnect.php
  */
 
 namespace Pdefreitas\VanillaSSO;
