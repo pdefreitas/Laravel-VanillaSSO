@@ -9,7 +9,7 @@ class VanillaSSOController extends \BaseController
 {
 
     /**
-     * Handles registration.
+     * Produces jsonResponse.
      *
      * @return Response
      */
