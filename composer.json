@@ -1,6 +1,7 @@
 {
     "name": "pdefreitas/vanillasso",
     "description": "A way to connect your Laravel application into Vanilla Forum via jsConnect.",
+    "license": "GPLv2",
     "authors": [
         {
             "name": "pdefreitas",
