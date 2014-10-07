@@ -34,6 +34,8 @@ return array(
 );
 ```
 
+Please note that this plugin supports MD5 and SHA1 hashes from JSconnect.
+
 License
 ==================
 Check LICENSE for more information.
