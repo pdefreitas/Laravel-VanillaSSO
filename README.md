@@ -21,7 +21,7 @@ If you want to implement it into your Laravel installation:
 
 ```$ composer update```
 
-3) Edit the providers Array() in app.php (app/config.app.php)
+3) Edit the providers Array() in app.php (app/config/app.php)
 
 ```
 'providers' => array(
