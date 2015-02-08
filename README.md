@@ -26,7 +26,7 @@ If you want to implement it into your Laravel installation:
 ```
 'providers' => array(
 ...
-'Pdefreitas\VanillaSSO\VanillaSSOServiceProvider',
+ 'Pdefreitas\VanillaSSO\VanillaSSOServiceProvider',
 ...
 ),
 ```
