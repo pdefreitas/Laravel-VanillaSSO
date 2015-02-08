@@ -30,7 +30,7 @@ If you want to implement it into your Laravel installation:
 ...
 ),
 ```
-4) Publish the vanillasso.php config file to make it accessible in app/config/packages/pdefreitas/vanillasso
+4) Publish the vanillasso.php config file to make it accessible in app/config/packages/pdefreitas/vanillasso/vanillasso.php
 
 ```
  php artisan config:publish pdefreitas/vanillasso
