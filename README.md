@@ -4,10 +4,37 @@ This package allows you to use jsConnect of Vanilla Forums in your Laravel 4 app
 
 SSO (Single Sign-on) will save your time if you want to implement a forum on your Laravel 4 application.
 
-This package is availabe on Packagist if you want to implement into your Laravel Installation:
-https://packagist.org/packages/pdefreitas/vanillasso
-require: ```"pdefreitas/vanillasso": "dev-master"```
- 
+The package is availabe on Packagist https://packagist.org/packages/pdefreitas/vanillasso
+
+If you want to implement it into your Laravel installation:
+
+1) Edit the composer.json file
+
+```
+"require": {
+ ...
+ "pdefreitas/vanillasso": "dev-master",
+ ...
+},
+```
+2) Update the composer
+
+```$ composer update```
+
+3) Edit the providers Array() in app.php (app/config.app.php)
+
+```
+'providers' => array(
+...
+'Pdefreitas\VanillaSSO\VanillaSSOServiceProvider',
+...
+),
+```
+4) Publish the vanillasso.php config file to make it accessible in app/config/packages/pdefreitas/vanillasso
+
+```
+ php artisan config:publish pdefreitas/vanillasso
+```
 
 Routes
 ==================
