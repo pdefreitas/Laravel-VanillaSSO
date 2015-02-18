@@ -9,13 +9,15 @@ class SSOUser {
     public $id;
     public $name;
     public $email;
+    public $roles;
     public $profilepicture;
 
     function __construct()
     {
-        $this->email = null;
-        $this->id = null;
-        $this->name = null;
+        $this->email          = null;
+        $this->id             = null;
+        $this->name           = null;
+        $this->roles          = null;
         $this->profilepicture = "";
     }
 
@@ -25,8 +27,9 @@ class SSOUser {
     function toArray() {
         return array(
             "uniqueid" => $this->id,
-            "name" => $this->name,
-            "email" => $this->email,
+            "name"     => $this->name,
+            "email"    => $this->email,
+            "roles"    => $this->roles,
             "photourl" => $this->profilepicture
         );
     }

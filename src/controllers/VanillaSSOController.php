@@ -22,6 +22,7 @@ class VanillaSSOController extends \BaseController
         $ssoUser->id = $user->id;
         $ssoUser->name = $user->username;
         $ssoUser->email = $user->email;
+        $ssoUser->roles = $user->roles;
         $ssoUser->profilepicture = "";
 
         $userInfo = $ssoUser->toArray();
